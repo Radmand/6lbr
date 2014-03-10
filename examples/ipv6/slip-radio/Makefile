@@ -19,7 +19,7 @@ PROJECT_SOURCEFILES += slip-net.c no-framer.c
 
 ifeq ($(TARGET),exp5438)
   PROJECT_SOURCEFILES += slip-radio-cc2420.c slip-radio-exp5438-sensors.c
-  
+endif  
 //ifeq ($(TARGET),sky)
   //PROJECT_SOURCEFILES += slip-radio-cc2420.c slip-radio-sky-sensors.c
 //endif
